@@ -1,0 +1,48 @@
+.hero-section {
+    background: black;
+    padding-bottom: 5%;
+}
+.hero-img-container {
+    padding: 0;
+}
+.hero-img {
+    width: 70%;
+    margin-top: 5%;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+.hero-input {
+    padding: 2%;
+    padding-right: 20%;
+    margin-bottom: 15px;
+}
+.hero-heading {
+    font-size: 3rem;
+    width: 70%;
+    color: white;
+}
+.subhead {
+    color: white;
+    font-weight: 300;
+}
+.hero-subhead-section {
+    margin-left: 20%;
+}
+
+@media (max-width:990px) {
+    .hero-subhead-section {
+        padding: 0;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    .hero-subhead-section {
+        margin: 0;
+        margin-left: 2%;
+    }
+    .hero-section {
+        padding-top: 5%;
+    }
+}

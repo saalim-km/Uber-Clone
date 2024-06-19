@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#header-section {
+    background-color: black;
+}
+.login-btn {
+    color: white;
+    border: none;
+    background: none;
+}

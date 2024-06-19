@@ -1,0 +1,43 @@
+body {
+    scroll-behavior: smooth;
+}
+.download {
+    background-color: rgba(211, 211, 211, 0.381);
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.download-container {
+    background-color: white; 
+    padding: 2% 0;   
+}
+.download-img {
+    margin-left: 5%;
+}
+.download-heading {
+    display: inline;
+}
+.download-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.download-container-grid {
+    justify-content: center;
+    column-gap: 2%;
+    margin-top: 2%;
+}
+.download-section-heading {
+    margin-left: 16%;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+@media (max-width:990px) {
+    .download-section-heading {
+        margin-left: 0;
+    }
+}
+@media (max-width:580px) {
+    .downlaod-subhead-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
